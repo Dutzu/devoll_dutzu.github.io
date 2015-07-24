@@ -1,15 +1,3 @@
-@charset "UTF-8";@font-face {
-  font-family: "Steelfish";
-  src: url('../fonts/steelfish/steelfish_eb-webfont.eot');
-  src: url('../fonts/steelfish/steelfish_eb-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/steelfish/steelfish_eb-webfont.woff') format('woff'), url('../fonts/steelfish/steelfish eb.otf') format('opentype');
-  font-weight: 800;
-}
-@font-face {
-  font-family: "Steelfish";
-  src: url('../fonts/steelfish/steelfish_bd-webfont.eot');
-  src: url('../fonts/steelfish/steelfish_bd-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/steelfish/steelfish_bd-webfont.woff') format('woff'), url('../fonts/steelfish/steelfish bd.otf') format('opentype');
-  font-weight: bold;
-}
 /*!
  * jQuery UI CSS Framework 1.10.3
  * http://jqueryui.com
@@ -775,7 +763,7 @@ ul.shortcode-list i {
 }
 
 /*Button styles */
-.button {
+/*.button {
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #fff;
@@ -797,6 +785,7 @@ ul.shortcode-list i {
   color: #333;
   background: #fff;
 }
+*/
 
 /*Top bar */
 .top-bar {
@@ -1070,13 +1059,13 @@ form input.error, form textarea.error {
   margin: 0;
 }
 .comments-wrapper ul.comments li {
-  border-bottom: 1px solid #e9e9e9;
+  border-bottom: 1px dotted #CCCCC7;
   padding: 20px 0 0;
   list-style: none;
 }
 .comments-wrapper ul.comments ul.children li {
   border-bottom: none;
-  border-top: 1px solid #e9e9e9;
+  border-top: 1px dotted #CCCCC7;
 }
 .comments-wrapper ul.comments .meta .avatar {
   float: left;
@@ -1087,7 +1076,7 @@ form input.error, form textarea.error {
 }
 .comments-wrapper ul.comments .meta .datetime {
   font-size: 0.875rem;
-  color: #999;
+  color: #666661;
 }
 
 #comments-form {
@@ -1486,7 +1475,7 @@ form input.error, form textarea.error {
   font-size: 2.5rem;
 }
 .modBlogPost.big h3 a {
-  color: #333;
+  color: #33332E;
 }
 .modBlogPost.big h3 a:hover {
   color: #f9ce06;
@@ -2127,6 +2116,7 @@ form input.error, form textarea.error {
   background-position: absolute;
   position: absolute;
   top: 0;
+  opacity: 0.6;
 }
 .modDefaultSlider .sequence .frame.static .bg {
   left: 0;
@@ -2521,8 +2511,10 @@ form input.error, form textarea.error {
   color: #fff;
   letter-spacing: 2px;
   font-weight: bold;
-  margin-bottom: 40px;
+  padding: 0.8rem;
+  /*margin-bottom: 40px;*/
   text-transform: uppercase;
+  background-color: #005DA5;
 }
 .modDefaultSlider .sequence .small-title h2 {
   font-size: 1.28571rem;
@@ -3241,10 +3233,10 @@ body {
 }
 .modSectionHeader .special-title h2::after {
   content: "";
-  width: 66%;
+  width: 50%;
   margin: 0 auto;
-  height: 2px;
-  background: #F9CE06;
+  height: 4px;
+  background: #005CAA;
   display: block;
 }
 
@@ -3826,3 +3818,153 @@ body {
     display: none;
   }
 }
+
+
+/*DESIGN OFFICE - Haufe Group Style - Oriented @ goodlooking.haufe.de*/
+
+/*FONTS*/
+
+/* Webfont: HaufeMerriweather */@font-face {
+    font-family: 'HaufeMerriweather';
+    src: url('fonts/HaufeMerriweather.eot'); /* IE9 Compat Modes */
+    src: url('fonts/HaufeMerriweather.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/HaufeMerriweather.woff') format('woff'), /* Modern Browsers */
+         url('fonts/HaufeMerriweather.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/HaufeMerriweather.svg#HaufeMerriweather') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+.haufemerriweather {font-family: 'HaufeMerriweather',serif; font-weight: normal;}
+ 
+ 
+/* Webfont: HaufeMerriweather-Bold */@font-face {
+    font-family: 'HaufeMerriweather';
+    src: url('fonts/HaufeMerriweather-Bold.eot'); /* IE9 Compat Modes */
+    src: url('fonts/HaufeMerriweather-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/HaufeMerriweather-Bold.woff') format('woff'), /* Modern Browsers */
+         url('fonts/HaufeMerriweather-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/HaufeMerriweather-Bold.svg#HaufeMerriweather-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+.haufemerriweatherbold { font-family: 'HaufeMerriweather', serif; font-weight: bold;}
+ 
+ 
+/* Webfont: HaufeMerriweather-BoldItalic */@font-face {
+    font-family: 'HaufeMerriweather';
+    src: url('fonts/HaufeMerriweather-BoldItalic.eot'); /* IE9 Compat Modes */
+    src: url('fonts/HaufeMerriweather-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/HaufeMerriweather-BoldItalic.woff') format('woff'), /* Modern Browsers */
+         url('fonts/HaufeMerriweather-BoldItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/HaufeMerriweather-BoldItalic.svg#HaufeMerriweather-BoldItalic') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+.haufemerriweatherbolditalic { font-family: 'HaufeMerriweather', serif;   font-style: italic;
+    font-weight: bold;}
+ 
+ 
+/* Webfont: HaufeMerriweather-Italic */@font-face {
+    font-family: 'HaufeMerriweather';
+    src: url('fonts/HaufeMerriweather-Italic.eot'); /* IE9 Compat Modes */
+    src: url('fonts/HaufeMerriweather-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/HaufeMerriweather-Italic.woff') format('woff'), /* Modern Browsers */
+         url('fonts/HaufeMerriweather-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/HaufeMerriweather-Italic.svg#HaufeMerriweather-Italic') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+ .haufemerriweatheritalic {    font-family: 'HaufeMerriweather', serif;    font-style: italic;
+    font-weight: normal;
+
+ }
+ 
+ /* Webfont: HaufeMerriweatherSans */@font-face {
+    font-family: 'HaufeMerriweatherSans';
+    src: url('fonts/HaufeMerriweatherSans.eot'); /* IE9 Compat Modes */
+    src: url('fonts/HaufeMerriweatherSans.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/HaufeMerriweatherSans.woff') format('woff'), /* Modern Browsers */
+         url('fonts/HaufeMerriweatherSans.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/HaufeMerriweatherSans.svg#HaufeMerriweatherSans') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+.haufemerriweathersans {  font-family: 'HaufeMerriweatherSans', sans-serif;    font-style: normal;
+    font-weight: normal;}
+	
+/* Webfont: HaufeMerriweatherSans-Bold */@font-face {
+    font-family: 'HaufeMerriweatherSans';
+    src: url('fonts/HaufeMerriweatherSans-Bold.eot'); /* IE9 Compat Modes */
+    src: url('fonts/HaufeMerriweatherSans-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/HaufeMerriweatherSans-Bold.woff') format('woff'), /* Modern Browsers */
+         url('fonts/HaufeMerriweatherSans-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/HaufeMerriweatherSans-Bold.svg#HaufeMerriweatherSans-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+	.haufemerriweathersansbold {  font-family: 'HaufeMerriweatherSans', sans-serif;    font-style: normal;
+    font-weight: bold;}
+	
+	
+	body {font-family: 'HaufeMerriweather', serif;     font-style: normal;
+    font-weight: normal; color: #33332E; background-color: #F7F7F4;}
+	
+	h1, h2, h3, h4, h5, h6 {font-family: 'HaufeMerriweatherSans', sans-serif;     font-style: normal;
+    font-weight: bold;}
+	
+	.button, .button.boxed, nav, .top-bar-section ul li > a, .info  {font-family: 'HaufeMerriweatherSans', sans-serif;     font-style: normal;
+    font-weight: normal;}
+	
+	a, .modBlogPost.big h3 a:hover, .pager a, .modIconText .icon-text-circle:hover i  {color: #005DA5; /*haufe blue*/}
+	.top-bar-section ul li > a {color: #33332E /*black*/}
+	.top-bar-section li.active:not(.has-form) a:not(.button) { color: #EB6005; background: none;  }
+	.top-bar-section ul li:hover:not(.has-form) > a, .top-bar-section li.active:not(.has-form) a:not(.button):hover {color: #005DA5; background: none;}
+	
+	a:hover, .pager a:hover {color: #337DB7;}
+	a:active {color: #337DB7;}
+	
+.modBlogPost.big .info, blockquote, blockquote p {color: #999994; /*grey on white*/	}
+	
+	
+ /*ELEMENTS*/
+
+.button {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  background: #EB6005;
+  border:none;
+}
+
+.button:hover {
+  background-color: #EF8037;
+}
+
+.button:active {
+background-color: #EF8037;}
+
+.button.boxed {
+  color: #fff;
+  border: 2px solid #EB6005;
+  background: none;
+}
+
+.button.boxed:hover {
+  color: #fff;
+  border: 2px solid #EF8037;
+  background: none;
+}
+
+p { line-height: 1.8; margin-bottom: 1.8rem;}
+
+
